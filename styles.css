@@ -26,7 +26,8 @@
 .listado { display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
+        
+        
         gap: 50px;
     
     }
@@ -146,6 +147,9 @@ padding-right: 10%;}
 
 
 /* responsive */
+
+
+
 
 @media  (max-width:470.98px) {
     
