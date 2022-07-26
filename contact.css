@@ -128,7 +128,7 @@ textarea {
 
 /* responsive */
 
-@media (max-width:375.98px) {
+@media (max-width:470.98px) {
     .logo {width: 70px;
         height: 9vh}
     .listado {gap: 20px;}
@@ -140,7 +140,7 @@ textarea {
 }
 
 
-@media (min-width:375.98px) and (max-width: 575.98px) {
+@media (min-width:470.98px) and (max-width: 575.98px) {
     body {background-repeat:no-repeat ;}
     .listado {gap: 12px;}
      .listado a { padding: 5vh 5%  ;
