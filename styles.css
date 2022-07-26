@@ -1,0 +1,225 @@
+* {padding: 0%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;}
+
+
+
+
+
+        
+    nav { 
+        background-image: linear-gradient(-45deg, #bda08d 50%, #36221c 50%);
+        display: flex;
+        justify-content:space-evenly;
+        height: 12vh;
+        align-items: center;
+        
+         }
+        
+        .logo {height: 10vh;
+            width: 7vw;}
+
+        
+
+
+
+.listado { display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    
+    }
+
+a {text-decoration: none;
+    color: #FFFFFF;
+}    
+
+
+
+.listado a { padding: 5vh 5%  ;
+            font-size: 20px;
+            
+            
+
+        }
+
+.listado a:hover {text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    color: #6868c2;
+                
+}
+
+.listado li:hover {transform: scale(1.1);
+                transition: 450ms;}
+
+
+    
+i:hover {
+        transform: skew(10deg);
+        transition: 450ms;
+
+    }    
+
+main { background:rgb(180, 178, 175)}
+
+.hallprincipal { 
+    height: 80vh;
+}
+
+
+    .slider {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .slider ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite alternate;
+       
+    }
+    
+    .slider li {
+        width: 100%;
+        
+    }
+    
+    .slider img {
+        width: 100%;
+        object-fit: cover;
+        
+    } 
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+    
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+    
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+    }
+
+
+
+
+
+footer {  color: #FFFFFF;
+    background-color:#1E1E26;
+    height: 150px;
+    
+ ;
+ 
+ 
+}
+
+.listafooter {display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+            
+        ;}    
+.listafooter i { padding-right: 10px;}
+
+
+
+.copy {display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #6868c2;
+    font-size: 50%;}
+
+
+.listaiconos {display: flex;
+    flex-direction: row-reverse;
+    
+padding-top: 20px;
+gap: 10px;
+padding-right: 10%;}
+
+.listaiconos i {color: orange;}
+
+
+/* responsive */
+
+@media  (max-width:375.98px) {
+    
+    .logo {width: 70px;
+        height: 9vh}
+    .listado a {
+                font-size: 8px;}
+    .listado {gap: 20px} 
+    .listafooter {font-size: 70%;}
+    
+    .copy {margin-top: 10px;
+        font-size: 5px;}               
+}
+    
+@media (min-width:375.98px) and (max-width: 575.98px) {
+    
+        .listado a { padding: 5vh 5%  ;
+            font-size: 11.2px;
+        }
+        .logo {width: 80px;
+            height: 9vh;}
+            
+        
+        .listado { display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        
+        }
+        
+            .copy {margin-top: 10px;
+                font-size: 10%;}
+        .listafooter {font-size: 80%;}
+    }
+
+
+
+@media (min-width:575.98px) and (max-width:767.98px) {
+    .listado a { padding: 5vh 5%  ;
+        font-size: 14.2px;}
+
+    .logo {width: 10vw;}
+
+    .listado {gap: 15px}
+    
+
+    .listafooter {font-size: 90%;}
+
+    .copy {margin-top: 10px;
+        font-size: 20%;}
+        
+}
+@media (min-width:767.98px) and (max-width:991.98px) {
+    
+    .listado {gap:17px}
+    .listado a { padding: 5vh 5%;
+        font-size: 17px;}
+        .logo {width: 80px;
+            height: 9vh;}
+    
+       
+
+}
+
+@media (min-width:991.98px) and (max-width:1199.98px) {
+    .listado a {font-size: 17px;}
+    .logo {width: 90px;
+        height: 9vh;}
+    
+    .listado {gap:40px}
+   .listafooter {font-size: 100%;}
+}
+
+@media (min-width:1199.98px) and (max-width:1399.98px) {
+    .listafooter {font-size: 110%;}
+}
+

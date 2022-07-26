@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #e3ddd9 50%, #36221c 50%);
+    font-family: 'Raleway', sans-serif;
+}
+
+    
+    nav { 
+        background-image: linear-gradient(-45deg, #bda08d 50%, #36221c 50%);
+        border: 1px solid black;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        height: 80px;
+         }
+        
+        .logo {height: 10vh;
+                width: 7vw;}
+
+        
+
+
+
+.listado { display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        gap: 50px;
+
+      
+   
+    
+    }
+
+a {text-decoration: none;
+    color: #FFFFFF;}    
+
+.listado a {  padding: 6vh 5%;
+            font-size: 20px;}
+
+.listado a:hover {text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    color: #6868c2;
+                
+}
+
+.listado li:hover {transform: scale(1.1);
+                transition: 450ms;}
+
+
+    
+i:hover {
+        transform: skew(10deg);
+        transition: 450ms;
+
+    }    
+
+form{ margin-bottom: 50px;}    
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {font-size: 22px;
+margin-bottom: 20px;
+text-align: center;}
+
+.controls {width: 100%;
+background: #24303c;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #dee2e6  ;
+font-family: 'calibri';
+font-size: 18px;}
+
+.form-register p { padding-bottom: 10px;
+font-size: 18px;}
+
+.form-register .botons {
+    width: 100%;
+    background:  #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+input {color: #FFFFFF;
+margin-top: 8px;}
+
+textarea {
+    margin-top: 8px;
+    color: #FFFFFF;
+}
+
+/* responsive */
+
+@media (max-width:375.98px) {
+    .logo {width: 70px;
+        height: 9vh}
+    .listado {gap: 20px;}
+    
+    .listado a {
+        padding: 0px 2px;
+                font-size: 7.5px;}
+     
+}
+
+
+@media (min-width:375.98px) and (max-width: 575.98px) {
+    body {background-repeat:no-repeat ;}
+    .listado {gap: 12px;}
+     .listado a { padding: 5vh 5%  ;
+        font-size: 11.2px;
+    ;}
+        .logo {width: 80px;
+            height: 9vh;
+        }
+}
+
+@media (min-width:575.98px) and (max-width:767.98px) {
+    .listado {gap: 15px}
+    .listado a { padding: 5vh 5%  ;
+        font-size: 14.2px;
+    }
+    .logo {width: 80px;
+        height: 9vh;
+}
+}
+
+@media (min-width:767.98px) and (max-width:991.98px) {
+    .listado {gap:18px}
+    .listado a { padding: 5vh 5%  ;
+        font-size: 16.8px;}
+    .logo {width: 80px;
+        height: 9vh;}
+
+}
+
+@media (min-width:991.98px) and (max-width:1199.98px) {
+   .listado a {font-size: 17px;}
+    .logo {width: 90px;
+        height: 9vh;}
+
+
+}
+
+@media (min-width:1199.98px) and (max-width:1399.98px) {
+    .logo {height: 10vh;
+        }
+}
+
